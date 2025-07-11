@@ -7,7 +7,9 @@
         private string soyad;
         private int id;
         private string numara;
+        private string mail;
         private string fotograf;
+        private string sifre;
         private double bakiye;
 
         public string AD
@@ -27,7 +29,7 @@
             set { id = value; }
         }
 
-        public string Numara
+        public string NUMARA
         {
             get { return numara; }
             set { numara = value; }
@@ -42,5 +44,17 @@
             get { return bakiye; }
             set { bakiye = value; }
         }
+
+        public string MAIL
+        {
+            get { return mail; }
+            set { mail = value; }
+        }
+
+        public string SIFRE {
+            get { return sifre; }
+            set { sifre = value; }
+        }
+    }
     }
 }
